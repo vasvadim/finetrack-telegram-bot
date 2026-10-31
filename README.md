@@ -30,8 +30,8 @@ Prices are fetched from `https://iss.moex.com/iss/engines/stock/markets/shares/b
 ## Run
 
 ```bash
-git clone https://github.com/vasvadim/FineTrackBot.git
-cd FineTrackBot
+git clone https://github.com/vasvadim/finetrack-telegram-bot.git
+cd finetrack-telegram-bot
 pip install python-telegram-bot aiohttp requests beautifulsoup4 pandas numpy matplotlib seaborn python-dotenv certifi
 echo "API_KEY=<your Telegram bot token>" > .env
 python main.py
